@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "libmem-sys",
+  "libmem",
+  "tests"
+]
+resolver = "2"

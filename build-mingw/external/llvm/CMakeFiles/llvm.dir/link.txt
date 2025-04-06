@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libllvm.a CMakeFiles/llvm.dir/lib/Demangle/DLangDemangle.cpp.obj CMakeFiles/llvm.dir/lib/Demangle/Demangle.cpp.obj CMakeFiles/llvm.dir/lib/Demangle/ItaniumDemangle.cpp.obj CMakeFiles/llvm.dir/lib/Demangle/MicrosoftDemangle.cpp.obj CMakeFiles/llvm.dir/lib/Demangle/MicrosoftDemangleNodes.cpp.obj CMakeFiles/llvm.dir/lib/Demangle/RustDemangle.cpp.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libllvm.a

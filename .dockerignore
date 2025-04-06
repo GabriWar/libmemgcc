@@ -1,0 +1,10 @@
+.git/
+Dockerfile
+docker-env*
+build*/
+*.swp
+libmem-rs/target/
+libmem-py/dist/
+libmem-py/build/
+libmem-py/src/libmem.*
+docs/examples/rust/target/

@@ -1,0 +1,4 @@
+/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-build/CMakeFiles/capstone-static.dir
+/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-build/CMakeFiles/test.dir
+/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-build/CMakeFiles/edit_cache.dir
+/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/capstone-engine"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/capstone-engine.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/capstone-engine-complete.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-build.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-configure.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-download.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-install.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-mkdir.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-patch.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/capstone-engine-prefix/src/capstone-engine-stamp/capstone-engine-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"capstone-engine"
+		],
+		"name" : "capstone-engine"
+	}
+}

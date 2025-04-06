@@ -1,0 +1,32 @@
+name: Windows Build/Test
+
+on: [workflow_dispatch]
+
+jobs:
+  build-and-test:
+    runs-on: windows-2019
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: Resolve Visual Studio Build Tools
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Configure and Build
+        run: |
+          mkdir build
+          cmake -S . -B build -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=Debug -DLIBMEM_BUILD_TESTS=ON -DLIBMEM_BUILD_STATIC=ON
+          cd build
+          nmake
+          cd ..
+
+      - name: Run Unit Tests
+        run: |
+          dir
+          dir .\build
+          echo "Starting target..."
+          start .\build\tests\target.exe
+          echo "Starting unit tests..."
+          .\build\tests\unit.exe

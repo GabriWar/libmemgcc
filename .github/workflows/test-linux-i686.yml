@@ -1,0 +1,31 @@
+name: Linux i686 Test
+
+on: [workflow_dispatch]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update && sudo apt-get -y install cmake make gcc-multilib g++-multilib python3
+
+      - name: Configure and Build
+        run: |
+          mkdir build
+          cmake -S . -B build -DLIBMEM_ARCH="i686" -DCMAKE_C_FLAGS="-m32 -fpermissive" -DCMAKE_CXX_FLAGS="-m32 -fpermissive" -DCMAKE_BUILD_TYPE=Debug -DLIBMEM_BUILD_TESTS=ON -DLIBMEM_BUILD_STATIC=ON
+          cd build
+          make -j 4
+          cd ..
+
+      - name: Run Unit Tests
+        run: |
+          echo "Starting target..."
+          ./build/tests/target &
+          echo "Starting unit tests..."
+          sudo ./build/tests/unit

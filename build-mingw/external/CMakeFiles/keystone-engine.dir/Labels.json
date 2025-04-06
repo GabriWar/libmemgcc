@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/keystone-engine"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/keystone-engine.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/CMakeFiles/keystone-engine-complete.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-build.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-configure.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-download.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-install.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-mkdir.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-patch.rule"
+		},
+		{
+			"file" : "/home/gabriwar/Desktop/gitthings/libmem/build-mingw/external/keystone-engine-prefix/src/keystone-engine-stamp/keystone-engine-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"keystone-engine"
+		],
+		"name" : "keystone-engine"
+	}
+}

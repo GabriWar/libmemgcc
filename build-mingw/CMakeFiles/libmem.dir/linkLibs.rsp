@@ -1,0 +1,1 @@
+ "external/capstone-engine-prefix/src/capstone-engine-build/libcapstone.a" "external/keystone-engine-prefix/src/keystone-engine-build/llvm/lib/libkeystone.a" external/llvm/libllvm.a -luser32 -lpsapi -lntdll -lshell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
